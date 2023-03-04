@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+
+  header {
+    background: linear-gradient(to bottom, #076388, rgb(160, 160, 160));
+    border-radius: 0 0 25px 25px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+  .section ul li {
+    margin-bottom: 5px;
+  }
+  .section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .section p {
+    margin: 0;
+  }
+  
+  .foto-de-perfil {
+    width: 160px;
+    height: 160px;
+    background-image: url('https://i.imgur.com/9Ai29k6.png');
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+  }
+  
+  .telefono {
+    color: #ffffff;
+    text-shadow: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .telefono:hover {
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff;
+  }
+
+
+
+.brillo {
+  animation: brillo 3s;
+}
+
+.telefono:hover .brillo {
+    animation: brillo 3s;
+    background-color: #076388;
+}
+
+.telefono {
+    display: block;
+  }
+
+  mi-elemento {
+       transition: all 0.2s ease-in-out;
+  }
+
+  .skills-list li:hover i {
+    transform: scale(1.9);
+    color: #ff8c00;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .section {
+    background: #f2f2f2;
+    border-radius: 25px;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
